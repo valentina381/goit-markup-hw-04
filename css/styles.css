@@ -221,8 +221,9 @@ p {
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
     background: var(--CLOUD, #F4F4FD);
     position: relative;
+    margin-bottom: 8px;
 }
-.antenna {
+.svg-item {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -240,6 +241,7 @@ p {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .our-team-names {
     padding: 32px 0;
@@ -251,6 +253,13 @@ p {
 .our-team-list {
 display: flex;
 gap: 24px;
+}
+.media-section {
+    display: inline-flex;
+    gap: 24px;
+}
+.job-name {
+    margin-top: 8px;
 }
 
 /*Section 4*/
@@ -318,6 +327,7 @@ width: calc((100% - 48px) / 3);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 .box {
     display: inline-flex;
@@ -334,4 +344,14 @@ width: calc((100% - 48px) / 3);
     left: 50%;
     transform: translate(-50%, -50%);
     fill: #F4F4FD;
+}
+.footer-container {
+    display: flex;
+}
+.footer-icons {
+    margin-left: 120px;
+}
+.social-media {
+    display: inline-flex;
+    gap: 16px;
 }
