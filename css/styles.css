@@ -166,11 +166,8 @@ p {
 .section-one {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient( 
-    rgba(46, 47, 66, 0.7), 
-    rgba(46, 47, 66, 0.7)
-	),
-    url(/images/background-photo.svg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(/images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -204,7 +201,6 @@ p {
     margin: -1px;
     border: 0;
     padding: 0;
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -245,6 +241,7 @@ p {
     width: calc((100% - 72px) / 4); 
 }
 .box-our-benefits {
+    display: flex;
     width: 264px;
     height: 112px;
     border-radius: 4px;
@@ -252,6 +249,8 @@ p {
     background: var(--CLOUD, #F4F4FD);
     position: relative;
     margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
 }
 .svg-item {
     position: absolute;
