@@ -166,12 +166,15 @@ p {
 .section-one {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(
-	to bottom, 
+    background-image: linear-gradient( 
     rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)
 	),
-	url(/images/background-photo.svg);
+    url(/images/background-photo.svg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .page-title {
