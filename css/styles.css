@@ -273,7 +273,6 @@ p {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .our-team-names {
-    padding: 32px 0;
     text-align: center;
 }
 .our-team-list .text {
@@ -284,8 +283,7 @@ display: flex;
 gap: 24px;
 }
 .media-section {
-    display: inline-flex;
-    gap: 24px;
+    padding: 32px 0;
 }
 .job-name {
     margin-top: 8px;
