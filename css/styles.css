@@ -358,13 +358,13 @@ gap: 24px;
     height: 100%;
     background-color: #4D5AE5;
     transform: translatey(100%);
-    transition: transform 250ms ease-in-out;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
     color:#F4F4FD;
-    padding: 32px;
-    padding-top: 40px;
     margin: 0;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+    padding: 40px 32px;
 }
 .our-portfolio-box:hover .overlay {
     transform: translatey(0);
@@ -414,12 +414,12 @@ gap: 24px;
 }
 .box {
     display: inline-flex;
-    width: 40px;
-    height: 40px;
     border-radius: 50%;
     position: relative;
 }
 .footer-media-link {
+    width: 40px;
+    height: 40px;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
@@ -432,10 +432,6 @@ gap: 24px;
 .footer-media-link:hover,
 .footer-media-link:focus {
     background-color: #31D0AA;
-}
-.footer-media-link a {
-    width: 100%;
-    height: 100%;
 }
 .media-icons {
     position: absolute;
