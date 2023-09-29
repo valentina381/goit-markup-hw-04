@@ -94,7 +94,8 @@ p {
     border-bottom: 2px solid #404BBF;
     left: 0;
     bottom: -1px;
-    height: 4px; 
+    height: 4px;
+    width: 100%;
     background-color: #404bbf;
     border-radius: 2px;
   }
@@ -166,11 +167,12 @@ p {
     background-color: #2E2F42;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto; 
 }
 
 .page-title {
@@ -256,6 +258,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    fill: var(--NAVY-BLUE, #2E2F42);    
 }
 /*Section 3*/
 
@@ -279,17 +282,16 @@ p {
     text-align: center;
 }
 .our-team-list {
-display: flex;
-gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 .job-name {
-    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .social-media-list {
     display: flex; 
     justify-content: center;
     gap: 24px;
-    padding: 32px 0;
 }
 .social-media-list-items {
     width: 40px;
@@ -365,7 +367,7 @@ gap: 24px;
     letter-spacing: 0.02em;
     padding: 40px 32px;
 }
-.our-portfolio-box:hover .overlay {
+.our-portfolio-items:hover .overlay {
     transform: translatey(0);
 }
 .text {
